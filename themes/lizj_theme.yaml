@@ -130,7 +130,7 @@ Lizjs Theme:
       # Sidebar Menu
       sidebar-icon-color: rgb(170, 170, 170)
       sidebar-text-color: rgb(220, 221, 221)
-      sidebar-background-color: var(--app-header-background-color)
+      sidebar-background-color: rgb(28, 28, 28)
       sidebar-selected-icon-color: var(--primary-color)
       sidebar-selected-text-color: var(--sidebar-selected-icon-color)
       # Buttons
