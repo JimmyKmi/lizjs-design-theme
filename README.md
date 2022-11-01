@@ -22,57 +22,94 @@ frontend:
   themes: !include_dir_merge_named themes
 ```
 
-2. Under the Home Assistant **Config** folder, create a new folder named **themes**
-3. **Restart** Home assistant to apply the changes.
+[//]: # (2. Under the Home Assistant **Config** folder, create a new folder named **themes**)
 
-### HACS installation
+[//]: # (3. **Restart** Home assistant to apply the changes.)
 
-1. Go into the Community Store (HACS)
-2. Search for **macOS Theme**
-3. Open the theme
-4. Press Install
-5. Restart Home Assistant
+[//]: # ()
+[//]: # (### HACS installation)
 
-**If the theme doesn't show up in HACS, you can manually add the repository.**
+[//]: # ()
+[//]: # (1. Go into the Community Store &#40;HACS&#41;)
 
-1. Go into HACS
-2. Go to **Frontend**
-3. Click on the icon with the 3 dots on the top right
-4. Select **Custom Repositories**
-5. enter the GitHub URL for the theme under **Repository**
-6. Under **Category**, select **Theme**
-7. Click on **Add**
-8. Search for the theme to add it
+[//]: # (2. Search for **macOS Theme**)
 
-### Manual installation
+[//]: # (3. Open the theme)
 
-1. In the Home assistant **themes** folder, create a file named `macos_theme.yaml`
-2. In this GitHub repo, go into the **themes** folder, open the `macos_theme.yaml` file and copy the content
-3. Paste the content in the `macos_theme.yaml` file created under your Home Assistant themes folder
+[//]: # (4. Press Install)
 
-### Enable theme
+[//]: # (5. Restart Home Assistant)
 
-1. Open your Home Assistant **Profile**
-2. Under, **Themes**, select the new **macOS Theme**
+[//]: # ()
+[//]: # (**If the theme doesn't show up in HACS, you can manually add the repository.**)
 
-### Set theme as default for all devices
+[//]: # ()
+[//]: # (1. Go into HACS)
 
-1. Open **Developer Tools**
-2. Go to **Services**
-3. Under **Service** enter `frontend.set_theme`
-4. Under **Name**, enter `macOS Theme`
-5. Enable **Mode** and set it to `light`
-6. Click on **Call Service**
-7. Repeat steps 1 to 6 but change the **Mode** to `dark`
+[//]: # (2. Go to **Frontend**)
 
-[buymeacoffee-shield]: https://i.imgur.com/Hzn2rM8.png
+[//]: # (3. Click on the icon with the 3 dots on the top right)
 
-[buymeacoffee]: https://www.buymeacoffee.com/JuanMTech
+[//]: # (4. Select **Custom Repositories**)
 
-[become-a-patron-shield]: https://i.imgur.com/U9BjCfc.png
+[//]: # (5. enter the GitHub URL for the theme under **Repository**)
 
-[becomeapatron]: https://www.patreon.com/JuanMTech
+[//]: # (6. Under **Category**, select **Theme**)
 
-[youtube-sub-shield]: https://i.imgur.com/6TAqHgi.png
+[//]: # (7. Click on **Add**)
 
-[youtubesubscribe]: https://www.youtube.com/c/JuanMTech?sub_confirmation=1
+[//]: # (8. Search for the theme to add it)
+
+[//]: # ()
+[//]: # (### Manual installation)
+
+[//]: # ()
+[//]: # (1. In the Home assistant **themes** folder, create a file named `macos_theme.yaml`)
+
+[//]: # (2. In this GitHub repo, go into the **themes** folder, open the `macos_theme.yaml` file and copy the content)
+
+[//]: # (3. Paste the content in the `macos_theme.yaml` file created under your Home Assistant themes folder)
+
+[//]: # ()
+[//]: # (### Enable theme)
+
+[//]: # ()
+[//]: # (1. Open your Home Assistant **Profile**)
+
+[//]: # (2. Under, **Themes**, select the new **macOS Theme**)
+
+[//]: # ()
+[//]: # (### Set theme as default for all devices)
+
+[//]: # ()
+[//]: # (1. Open **Developer Tools**)
+
+[//]: # (2. Go to **Services**)
+
+[//]: # (3. Under **Service** enter `frontend.set_theme`)
+
+[//]: # (4. Under **Name**, enter `macOS Theme`)
+
+[//]: # (5. Enable **Mode** and set it to `light`)
+
+[//]: # (6. Click on **Call Service**)
+
+[//]: # (7. Repeat steps 1 to 6 but change the **Mode** to `dark`)
+
+[//]: # ()
+[//]: # ([buymeacoffee-shield]: https://i.imgur.com/Hzn2rM8.png)
+
+[//]: # ()
+[//]: # ([buymeacoffee]: https://www.buymeacoffee.com/JuanMTech)
+
+[//]: # ()
+[//]: # ([become-a-patron-shield]: https://i.imgur.com/U9BjCfc.png)
+
+[//]: # ()
+[//]: # ([becomeapatron]: https://www.patreon.com/JuanMTech)
+
+[//]: # ()
+[//]: # ([youtube-sub-shield]: https://i.imgur.com/6TAqHgi.png)
+
+[//]: # ()
+[//]: # ([youtubesubscribe]: https://www.youtube.com/c/JuanMTech?sub_confirmation=1)
