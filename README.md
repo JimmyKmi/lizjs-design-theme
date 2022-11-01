@@ -95,21 +95,3 @@ frontend:
 [//]: # (6. Click on **Call Service**)
 
 [//]: # (7. Repeat steps 1 to 6 but change the **Mode** to `dark`)
-
-[//]: # ()
-[//]: # ([buymeacoffee-shield]: https://i.imgur.com/Hzn2rM8.png)
-
-[//]: # ()
-[//]: # ([buymeacoffee]: https://www.buymeacoffee.com/JuanMTech)
-
-[//]: # ()
-[//]: # ([become-a-patron-shield]: https://i.imgur.com/U9BjCfc.png)
-
-[//]: # ()
-[//]: # ([becomeapatron]: https://www.patreon.com/JuanMTech)
-
-[//]: # ()
-[//]: # ([youtube-sub-shield]: https://i.imgur.com/6TAqHgi.png)
-
-[//]: # ()
-[//]: # ([youtubesubscribe]: https://www.youtube.com/c/JuanMTech?sub_confirmation=1)
