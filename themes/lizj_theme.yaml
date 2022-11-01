@@ -113,7 +113,7 @@ Lizjs Theme:
     #
     dark:
       # Header:
-      app-header-background-color: rgb(38, 38, 38)
+      app-header-background-color: rgb(48, 48, 48)
       app-header-text-color: var(--primary-text-color)
       app-header-selection-bar-color: var(--primary-color)
       # Main Interface Colors
