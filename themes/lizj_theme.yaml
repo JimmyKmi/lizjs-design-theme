@@ -130,7 +130,7 @@ Lizjs Theme:
       # Sidebar Menu
       sidebar-icon-color: rgb(170, 170, 170)
       sidebar-text-color: rgb(220, 221, 221)
-      sidebar-background-color: rgb(28, 28, 28)
+      sidebar-background-color: rgb(38, 38, 38)
       sidebar-selected-icon-color: var(--primary-color)
       sidebar-selected-text-color: var(--sidebar-selected-icon-color)
       # Buttons
@@ -156,7 +156,7 @@ Lizjs Theme:
       label-badge-yellow: rgb(255, 214, 10)
       label-badge-gray: rgb(90, 89, 88)
       # Cards
-      card-background-color: rgb(32, 32, 32)
+      card-background-color: rgb(22, 22, 22)
       ha-card-border-radius: "8px"
       ha-card-box-shadow: none
       paper-dialog-background-color: var(--card-background-color)
