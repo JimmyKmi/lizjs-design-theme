@@ -126,6 +126,19 @@ Lizjs Theme:
       app-header-background-color: var(--this-frame-background-color)
       app-header-text-color: var(--this-theme-text-color)
       app-header-selection-bar-color: var(--this-box-background-color)
+      # 侧边栏
+#      sidebar-icon-color: rgb(170, 170, 170)
+#      sidebar-text-color: rgb(220, 221, 221)
+      sidebar-background-color: var(--this-frame-background-color)
+      sidebar-selected-icon-color: var(--this-theme-color)
+      sidebar-selected-text-color: var(--sidebar-selected-icon-color)
+      # 卡片
+      card-background-color: var(--this-box-background-color)
+      ha-card-border-radius: "8px"
+      ha-card-box-shadow: none
+      paper-dialog-background-color: var(--card-background-color)
+      paper-listbox-background-color: var(--card-background-color)
+      paper-card-background-color: var(--card-background-color)
 
       # Header:
 #      app-header-background-color: var(--this-frame-background-color)
@@ -143,11 +156,6 @@ Lizjs Theme:
 #      text-primary-color: var(--primary-text-color)
 #      disabled-text-color: rgb(170, 170, 170)
 #      # Sidebar Menu
-#      sidebar-icon-color: rgb(170, 170, 170)
-#      sidebar-text-color: rgb(220, 221, 221)
-#      sidebar-background-color: var(--secondary-background-color)
-#      sidebar-selected-icon-color: var(--this-theme-color)
-#      sidebar-selected-text-color: var(--sidebar-selected-icon-color)
 #      # Buttons
 #      paper-item-icon-color: rgb(197, 197, 198)
 #      paper-item-icon-active-color: var(--this-theme-color)
@@ -171,12 +179,6 @@ Lizjs Theme:
 #      label-badge-yellow: rgb(255, 214, 10)
 #      label-badge-gray: rgb(90, 89, 88)
 #      # Cards
-#      card-background-color: var(--secondary-background-color)
-#      ha-card-border-radius: "8px"
-#      ha-card-box-shadow: none
-#      paper-dialog-background-color: var(--card-background-color)
-#      paper-listbox-background-color: var(--card-background-color)
-#      paper-card-background-color: var(--card-background-color)
 #      # Switches
 #      switch-checked-button-color: rgb(202, 203, 204)
 #      switch-checked-track-color: rgb(22, 100, 218)
