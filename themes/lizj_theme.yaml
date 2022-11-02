@@ -113,13 +113,13 @@ Lizjs Theme:
     #
     dark:
       # Header:
-      app-header-background-color: rgb(43, 43, 43)
+      app-header-background-color: rgb(50, 50, 50)
       app-header-text-color: var(--primary-text-color)
       app-header-selection-bar-color: var(--primary-color)
       # Main Interface Colors
       primary-color: rgb(0, 122, 255)
       primary-background-color: rgb(30, 30, 30)
-      secondary-background-color: rgb(35, 35, 35)
+      secondary-background-color: rgb(40, 40, 40)
       divider-color: rgb(22, 23, 24)
       accent-color: var(--primary-color)
       # Text
@@ -130,7 +130,7 @@ Lizjs Theme:
       # Sidebar Menu
       sidebar-icon-color: rgb(170, 170, 170)
       sidebar-text-color: rgb(220, 221, 221)
-      sidebar-background-color: rgb(38, 38, 38)
+      sidebar-background-color: var(--secondary-background-color)
       sidebar-selected-icon-color: var(--primary-color)
       sidebar-selected-text-color: var(--sidebar-selected-icon-color)
       # Buttons
@@ -156,7 +156,7 @@ Lizjs Theme:
       label-badge-yellow: rgb(255, 214, 10)
       label-badge-gray: rgb(90, 89, 88)
       # Cards
-      card-background-color: rgb(32, 32, 32)
+      card-background-color: var(--secondary-background-color)
       ha-card-border-radius: "8px"
       ha-card-box-shadow: none
       paper-dialog-background-color: var(--card-background-color)
@@ -173,9 +173,9 @@ Lizjs Theme:
       paper-toggle-button-unchecked-button-color: var(--switch-unchecked-button-color)
       paper-toggle-button-unchecked-bar-color: var(--switch-unchecked-track-color)
       # Table
-      table-row-background-color: rgb(27, 29, 30)
-      table-row-alternative-background-color: rgb(38, 40, 41)
-      data-table-background-color: rgb(27, 29, 30)
+      table-row-background-color: var(--secondary-background-color)
+      table-row-alternative-background-color: var(--primary-background-color)
+      data-table-background-color: var(--secondary-background-color)
       # Dropdowns
       material-background-color: var(--table-row-background-color)
       material-secondary-background-color: var(--table-row-alternative-background-color)
