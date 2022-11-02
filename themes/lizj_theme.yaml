@@ -118,11 +118,14 @@ Lizjs Theme:
 
       # Theme - BACKGROUND
       this-background-color: rgb(0, 0, 0)
-      this-frame-background-color: rgb(30, 30, 30)
-      this-box-background-color: rgb(35, 35, 35)
+      this-frame-background-color: rgb(20, 20, 20)
+      this-box-background-color: rgb(30, 30, 30)
       this-pops-background-color: rgb(40, 40, 40)
       # Theme - TEXT
-      # HEADER
+      # 页面
+      primary-color: var(--this-theme-color)
+      primary-background-color: var(--this-background-color)
+      # 标题
       app-header-background-color: var(--this-frame-background-color)
       app-header-text-color: var(--this-theme-text-color)
       app-header-selection-bar-color: var(--this-box-background-color)
